@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Калькулятор калорий</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body> 
+  <header>
+    <nav>
+      <div class="">
+        <div class="container">
+          <a class="logo">КАЛЬКУЛЯТОР КАЛОРИЙ</a>
+          <ul id="nav-mobile">
+            <button href="#" class="clear-btn">Очистить</a></button>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <br>
+
+  <main>
+    <div class="container">
+      <div>
+        <div>
+          <span>Добавить продукт</span>
+
+          <div>
+            <form>
+              <div>
+                <div>
+                  <input id="item-name" class="form" type="text">
+                  <label for="item-name">Продукт</label>
+                </div>
+                <div>
+                  <input id="item-calories" class="form" type="number">
+                  <label for="item-calories">Калории</label>
+                </div>
+              </div> 
+              <div>
+                <div>
+                  <a class="add-btn" title="Добавить продукт"><i class="material-icons">addbox</i></a>
+                  <a class="update-btn" title="Обновить продукт"><i class="material-icons">update</i></a>
+                  <a class="delete-btn btn red" title="Удалить продукт"><i class="material-icons">delete</i></a>    
+                  <a class="back-btn" title="Назад"><i class="material-icons">назад</i></a>
+                </div>
+              </div>
+            </form>
+          </div>
+          
+        </div> 
+      </div> 
+    </div>
+
+    <h3 class="center">Всего калорий: <span class="total-calories">0</span></h3>
+    <div class="container">
+      <ul id="item-list" class="collection">
+        
+      </ul>
+    </div>
+  </main> 
+  
+
+    <script src="app.js"></script>
+    </script>
+  </body>
+</html>
